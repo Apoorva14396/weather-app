@@ -25,7 +25,7 @@ weatherForm.addEventListener("submit", e => {
           data.forecast.summary +
           "The temperature is " +
           data.forecast.temperature +
-          "degree celsius";
+          " degree celsius";
         console.log(data.location);
       }
     });
