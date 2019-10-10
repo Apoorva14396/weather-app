@@ -25,7 +25,13 @@ weatherForm.addEventListener("submit", e => {
           data.forecast.summary +
           "The temperature is " +
           data.forecast.temperature +
-          " degree celsius";
+          " degree celsius. The high today is " +
+          data.forecast.high +
+          " and low today is " +
+          data.forecast.low +
+          ". There is " +
+          data.forecast.currently +
+          "% chance of rain .";
         console.log(data.location);
       }
     });
